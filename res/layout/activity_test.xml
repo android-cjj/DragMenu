@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cjj.dragmenu.DragMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/dm"
+     android:background="@drawable/minrren3"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/mingren2"
+        android:paddingTop="50dp" >
+
+       
+    </RelativeLayout>
+
+    <com.cjj.dragmenu.DMMainLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:background="@drawable/mingren1" >
+
+      
+    </com.cjj.dragmenu.DMMainLayout>
+
+</com.cjj.dragmenu.DragMenu>
